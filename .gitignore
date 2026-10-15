@@ -1,23 +1,19 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.eggs/
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
 build/
 dist/
 
-# 虚拟环境
-.venv/
-venv/
-env/
+# editor
+.vscode/*
+!.vscode/extensions.json
 
-# IDE
-.idea/
-.vscode/
-
-# 系统文件
+# misc
 .DS_Store
-Thumbs.db
-
-# 依赖与构建产物
-node_modules/
+*.log
+.env*
